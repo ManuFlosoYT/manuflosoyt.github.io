@@ -850,7 +850,7 @@ section {
 # RSMDescarga
 --------------------------------------------------------------*/
 .RSMDescarga {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../RandomSuperMod/MinecraftForge.jpeg") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../RandomSuperMod/curseforge.webp") center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -880,6 +880,47 @@ section {
 }
 
 .RSMDescarga .RSMDescarga-btn:hover {
+  background: #ffc451;
+  border-color: #ffc451;
+  color: #151515;
+}
+
+
+
+/*--------------------------------------------------------------
+# RSMDescarga 2
+--------------------------------------------------------------*/
+.RSMDescarga2 {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../RandomSuperMod/modrinth.png") center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.RSMDescarga2 h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.RSMDescarga2 p {
+  color: #fff;
+}
+
+.RSMDescarga2 .RSMDescarga-btn2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.RSMDescarga2 .RSMDescarga-btn2:hover {
   background: #ffc451;
   border-color: #ffc451;
   color: #151515;
